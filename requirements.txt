@@ -1,0 +1,5 @@
+azure_storage==0.37.0
+cozmo==1.4.10
+keyboard==0.13.5
+openai==0.26.2
+streamlit==1.17.0
