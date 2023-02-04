@@ -22,7 +22,7 @@ Viewer3d = False
 ptt = False
 longspeech = True
 
-#Streamlit se no viewer
+#Streamlit or viewer
 if Viewer == False:
     import streamlit as st
 
