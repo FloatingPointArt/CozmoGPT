@@ -1,14 +1,13 @@
 # CozmoGPT
- Giving a GPT-3 Brain to my little buddy robot.
+ Giving a GPT-3 Brain to My Little Buddy Robot
+
+Welcome to CozmoGPT! This project started as a fun experiment to see what would happen if I gave my Cozmo robot a GPT-3 brain. It was born in the early days of ChatGPT (using the GPT-3 API) and was mostly a way for me to test my prompting skills and explore the limits of LLM technology. The results were more impressive than I expected, so I decided to share my smart little friend with the world on TikTok: https://www.tiktok.com/@cozmogpt
  
- This software was developed as a personal project at the very early stages of ChatGPT (it uses GPT-3 API), mostly as a benchmark to put my prompting skills to test and understand the limits of the LLM technology. I was surprised by the outcome, so I created a TikTok channel about my smart little friend "CozmoGPT": https://www.tiktok.com/@cozmogpt
+ As promised, when the main video hit 100K views and the account surpassed 1,000 followers, I decided it was time to publish the code.
  
- As promised, when the main video of the channel reached 100K views and the account surpassed 1000 followers, I decided to publish the code.
- 
- Lately, I have been very busy with a new drone startup, so I never took the time to update the code to move away from Microsoft Azure services (and use Whisper for voice recognition), give it vision (through the new GPT-4o model) and make it smarter. If you want to branch the repo and try it yourself please give it a go, I'll be happy to see the outcomes!
+ I’ve been pretty busy lately with a new drone startup, so I haven’t had much time to update the code. I still need to move away from Microsoft Azure services (planning to use Whisper for voice recognition), give Cozmo vision (via the new GPT-4o model), and make it even smarter. But if you want to dive in and try it out yourself, go for it! I’d love to see what you come up with.
 
  # Notes
- This is a work in progress.
  This version of the program, with the actual Azure services configuration, works only on Windows.
 
 The program can be started from inside the relative folder with or without Streamlit support using the Start_Streamlit.bat or Start.bat batch files respectively. Since I used an Android tablet during development, in the batch file there is a command to start the ADB server.
