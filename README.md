@@ -1,11 +1,14 @@
 # CozmoGPT
- Giving a GPT-3 Brain to a little buddy robot
+ Giving a GPT-3 Brain to my little buddy robot.
+ This software was developed as a personal project at the very early stages of ChatGPT (it uses GPT-3 API), mostly as a benchmark to put my prompting skills to test and understand the limits of the LLM technology. I was surprised by the outcome, so I created a TikTok channel about my smart little friend "CozmoGPT": https://www.tiktok.com/@cozmogpt
+ As promised, when the main video of the channel reached 100K views and the account surpassed 1000 followers, I decided to publish the code.
+ Lately, I have been very busy with a new drone startup, so I never took the time to update the code to move away from Microsoft Azure services (and use Whisper for voice recognition), give it vision (through the new GPT-4o model) and make it smarter. If you want to branch the repo and try it yourself please give it a go, I'll be happy to see the outcomes!
 
  # Notes
  This is a work in progress.
  This version of the program, with the actual Azure services configuration, works only on Windows.
 
- The program can be started from inside the relative folder with or without Streamlit support using the Start_Streamlit.bat or Start.bat batch files respectively. Since I used an Android tablet during development, in the batch file there is a command to start the ADB server.
+The program can be started from inside the relative folder with or without Streamlit support using the Start_Streamlit.bat or Start.bat batch files respectively. Since I used an Android tablet during development, in the batch file there is a command to start the ADB server.
 
  If Streamlit is used, it's suggested to keep the Terminal also open somewhere on the screen to check for speech recognition accuracy and system messages.
 
