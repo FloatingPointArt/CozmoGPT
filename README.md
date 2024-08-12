@@ -1,6 +1,4 @@
 # CozmoGPT
- Giving a GPT-3 Brain to My Little Buddy Robot
-
 Welcome to CozmoGPT! This project started as a fun experiment to see what would happen if I gave my Cozmo robot a GPT-3 brain. It was born in the early days of ChatGPT (using the GPT-3 API) and was mostly a way for me to test my prompting skills and explore the limits of LLM technology. The results were more impressive than I expected, so I decided to share my smart little friend with the world on TikTok: https://www.tiktok.com/@cozmogpt
  
  As promised, when the main video hit 100K views and the account surpassed 1,000 followers, I decided it was time to publish the code.
