@@ -25,6 +25,9 @@ The program can be started from inside the relative folder with or without Strea
  With the default options "ptt = False" and "longspeech = True" (lines 22, 23 of Cozmo-to-ChatGPT.py), after the first initialization and introduction message from Cozmo, the speech recognition system is constantly listening, and in the terminal the partial parts of the dialog are transcribed in real time. Pressing SPACEBAR, you acknowledge that part of the message and send it to the OpenAI API. If you change your mind, you can press BACKSPACE to reset the message and start over.
 
 # Copyright
+
+The MIT License (MIT)
+
 Concept, code and prompts, and all the content of this repository are copyright Ⓒ 2023-2024 Giuliano Golfieri.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
