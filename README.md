@@ -16,8 +16,8 @@ The program can be started from inside the relative folder with or without Strea
 
 # Instructions
  1) Install ADB if you are using an Android device to run the Cozmo app (https://developer.android.com/studio/command-line/adb)
- 2) Create a Speech service in your Microsoft Azure control panel
- 3) Add your OpenAI API key, Azure speech services API key, and server region in api_secrets.py
+ 2) (Optional) Create a Speech service in your Microsoft Azure control panel, only needed if you want to use Azure speech recognition
+ 3) Add your OpenAI API key in api_secrets.py. The Azure speech services API key and server region are optional and only need to be filled in if you created an Azure speech service
  4) Choose the character you want to use in line 36 of Cozmo-to-ChatGPT.py (default character = 'Cozmo')
  5) Choose if you want to use the Cozmo 2D/3D viewer (which requires the installation of the viewer separately and freeglut.dll 64 bit in the Windows/System32 folder). Default is Viewer = False and Viewer3d = False (lines 18 and 19). If using the viewer or 3D viewer start the program withtout Streamlit (using Start.bat)
 
